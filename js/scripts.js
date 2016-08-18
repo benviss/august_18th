@@ -24,15 +24,6 @@ function romanEasy(number){
   }
   return numerals;
 }
-//
-// function characters(array){
-//   var results=[];
-//   for(var i = 6; i >= 0; i--){
-//     results.unshift(romanCharacters[i].repeat(numerals[i]));
-//   }
-//   results = results.reverse().join('');
-//   return results;
-// }
 
 function translate(number) {
   var results;
